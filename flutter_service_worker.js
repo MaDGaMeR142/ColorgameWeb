@@ -3,35 +3,99 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "c375b722d71170b8921eca5da5f82a8d",
-"assets/assets/gameover.mp3": "be8615a6b823d4c11313677cedf63e24",
-"assets/assets/gamestart.mp3": "ea812424275b7217895abb9ba0fdc0d9",
-"assets/assets/levelup.mp3": "131108985b657c263e1414966c6da8ec",
-"assets/assets/point.mp3": "62e1cc3b02da448936abadd0adfcc08e",
-"assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"assets/NOTICES": "5966cdc516e808b4b9e3c237fcdecf0a",
+  "assets/AssetManifest.json": "886a58944522161525fee0d99952e55a",
+"assets/assets/avatar.json": "efa4b8fc6952c97763e2a4da47aa843c",
+"assets/assets/bg1.json": "cacfe4d1d254d8d9f98679c0e2b9620b",
+"assets/assets/bg2.json": "a9f7a1ea1992d673f902416e4fbcc72b",
+"assets/assets/bg3.json": "af111f54727ae67297b25099f896e31b",
+"assets/assets/bg4.json": "ef8bb9aacc34b42b0c1a8ada3ca1c7ce",
+"assets/assets/bg5.riv": "76efce2ec375630c296b4768b9be2adc",
+"assets/assets/bg7.json": "16f6f72b2250cb4e92186b6432d1f744",
+"assets/assets/bg8.json": "b11afd950aa7eb10d033392d3f4cd0a2",
+"assets/assets/bg9.json": "c58a0e1bafb2af0fc5ae939a4f27a9c1",
+"assets/assets/bgwide.riv": "383958090336ba76990adadda94903a6",
+"assets/assets/bgwide1.json": "9661a2dbc60a9e930ad01d2400545c5f",
+"assets/assets/CONVOCOM.png": "9e9e1ec6da07ae4aadae1865adddf2a9",
+"assets/assets/CONVOCOM1.png": "09749602177a44026a7a8c862c52c470",
+"assets/assets/loading.json": "4802a81baa0498bd960df7c0919741d6",
+"assets/assets/PermanentMarker-Regular.ttf": "c863f8028c2505f92540e0ba7c379002",
+"assets/assets/person.json": "efa4b8fc6952c97763e2a4da47aa843c",
+"assets/assets/Roboto-Black.ttf": "d6a6f8878adb0d8e69f9fa2e0b622924",
+"assets/assets/RobotoFlex-Regular.ttf": "4c784376ef1e456e9f5a3ddf3fe1c187",
+"assets/assets/warning.json": "0c8a33a674fc5c805f1c0cb7f213b3fb",
+"assets/FontManifest.json": "710ec6b69a5bea47856900084d3c9536",
+"assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
+"assets/NOTICES": "97db71b8fd9129171f3112db9305b23e",
+"assets/packages/awesome_dialog/assets/flare/error.flr": "e3b124665e57682dab45f4ee8a16b3c9",
+"assets/packages/awesome_dialog/assets/flare/info.flr": "bc654ba9a96055d7309f0922746fe7a7",
+"assets/packages/awesome_dialog/assets/flare/info2.flr": "21af33cb65751b76639d98e106835cfb",
+"assets/packages/awesome_dialog/assets/flare/info_without_loop.flr": "cf106e19d7dee9846bbc1ac29296a43f",
+"assets/packages/awesome_dialog/assets/flare/question.flr": "1c31ec57688a19de5899338f898290f0",
+"assets/packages/awesome_dialog/assets/flare/succes.flr": "ebae20460b624d738bb48269fb492edf",
+"assets/packages/awesome_dialog/assets/flare/succes_without_loop.flr": "3d8b3b3552370677bf3fb55d0d56a152",
+"assets/packages/awesome_dialog/assets/flare/warning.flr": "68898234dacef62093ae95ff4772509b",
+"assets/packages/awesome_dialog/assets/flare/warning_without_loop.flr": "c84f528c7e7afe91a929898988012291",
+"assets/packages/awesome_dialog/assets/rive/error.riv": "e74e21f8b53de4b541dd037c667027c1",
+"assets/packages/awesome_dialog/assets/rive/info.riv": "2a425920b11404228f613bc51b30b2fb",
+"assets/packages/awesome_dialog/assets/rive/info_reverse.riv": "c6e814d66c0e469f1574a2f171a13a76",
+"assets/packages/awesome_dialog/assets/rive/question.riv": "00f02da4d08c2960079d4cd8211c930c",
+"assets/packages/awesome_dialog/assets/rive/success.riv": "73618ab4166b406e130c2042dc595f42",
+"assets/packages/awesome_dialog/assets/rive/warning.riv": "0becf971559a68f9a74c8f0c6e0f8335",
+"assets/packages/awesome_icons/fonts/Brands-Regular-400.otf": "f020d1af67791647fbb1a40daea48e32",
+"assets/packages/awesome_icons/fonts/Free-Regular-400.otf": "23edbee684b5998da2c85348a1485c66",
+"assets/packages/awesome_icons/fonts/Free-Solid-900.otf": "8d531d92051cddac77556d0734b701f8",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
-"icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "348b9d9ca5cf6744d63fe1888424c471",
-"/": "348b9d9ca5cf6744d63fe1888424c471",
-"main.dart.js": "95fceb62d9e9a20c288020dd644e907a",
-"manifest.json": "a6509ec975026b4697925cb98b23f8ca",
-"New%20Text%20Document.html": "40daaf7bb994c5c72d629c24f095ede2",
-"version.json": "24b29282ced9ff0076bebdc471271112"
+"assets/packages/flutter_chat_ui/assets/2.0x/icon-arrow.png": "8efbd753127a917b4dc02bf856d32a47",
+"assets/packages/flutter_chat_ui/assets/2.0x/icon-attachment.png": "9c8f255d58a0a4b634009e19d4f182fa",
+"assets/packages/flutter_chat_ui/assets/2.0x/icon-delivered.png": "b6b5d85c3270a5cad19b74651d78c507",
+"assets/packages/flutter_chat_ui/assets/2.0x/icon-document.png": "e61ec1c2da405db33bff22f774fb8307",
+"assets/packages/flutter_chat_ui/assets/2.0x/icon-error.png": "5a59dc97f28a33691ff92d0a128c2b7f",
+"assets/packages/flutter_chat_ui/assets/2.0x/icon-seen.png": "10c256cc3c194125f8fffa25de5d6b8a",
+"assets/packages/flutter_chat_ui/assets/2.0x/icon-send.png": "2a7d5341fd021e6b75842f6dadb623dd",
+"assets/packages/flutter_chat_ui/assets/3.0x/icon-arrow.png": "3ea423a6ae14f8f6cf1e4c39618d3e4b",
+"assets/packages/flutter_chat_ui/assets/3.0x/icon-attachment.png": "fcf6bfd600820e85f90a846af94783f4",
+"assets/packages/flutter_chat_ui/assets/3.0x/icon-delivered.png": "28f141c87a74838fc20082e9dea44436",
+"assets/packages/flutter_chat_ui/assets/3.0x/icon-document.png": "4578cb3d3f316ef952cd2cf52f003df2",
+"assets/packages/flutter_chat_ui/assets/3.0x/icon-error.png": "872d7d57b8fff12c1a416867d6c1bc02",
+"assets/packages/flutter_chat_ui/assets/3.0x/icon-seen.png": "684348b596f7960e59e95cff5475b2f8",
+"assets/packages/flutter_chat_ui/assets/3.0x/icon-send.png": "8e7e62d5bc4a0e37e3f953fb8af23d97",
+"assets/packages/flutter_chat_ui/assets/icon-arrow.png": "678ebcc99d8f105210139b30755944d6",
+"assets/packages/flutter_chat_ui/assets/icon-attachment.png": "17fc0472816ace725b2411c7e1450cdd",
+"assets/packages/flutter_chat_ui/assets/icon-delivered.png": "b064b7cf3e436d196193258848eae910",
+"assets/packages/flutter_chat_ui/assets/icon-document.png": "b4477562d9152716c062b6018805d10b",
+"assets/packages/flutter_chat_ui/assets/icon-error.png": "4fceef32b6b0fd8782c5298ee463ea56",
+"assets/packages/flutter_chat_ui/assets/icon-seen.png": "b9d597e29ff2802fd7e74c5086dfb106",
+"assets/packages/flutter_chat_ui/assets/icon-send.png": "34e43bc8840ecb609e14d622569cda6a",
+"assets/packages/quickalert/assets/confirm.gif": "bdc3e511c73e97fbc5cfb0c2b5f78e00",
+"assets/packages/quickalert/assets/error.gif": "c307db003cf53e131f1c704bb16fb9bf",
+"assets/packages/quickalert/assets/info.gif": "90d7fface6e2d52554f8614a1f5deb6b",
+"assets/packages/quickalert/assets/loading.gif": "ac70f280e4a1b90065fe981eafe8ae13",
+"assets/packages/quickalert/assets/success.gif": "dcede9f3064fe66b69f7bbe7b6e3849f",
+"assets/packages/quickalert/assets/warning.gif": "f45dfa3b5857b812e0c8227211635cc4",
+"assets/packages/toast/assets/toastify.css": "a85675050054f179444bc5ad70ffc635",
+"assets/packages/toast/assets/toastify.js": "e7006a0a033d834ef9414d48db3be6fc",
+"canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
+"canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e",
+"canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
+"canvaskit/profiling/canvaskit.wasm": "371bc4e204443b0d5e774d64a046eb99",
+"favicon.png": "31177cd0372b6d5cb50c5aeeb5f39bcc",
+"flutter.js": "a85fcf6324d3c4d3ae3be1ae4931e9c5",
+"icons/Icon-192.png": "9ab5e9c9c07419d638ff404dc4d873f6",
+"icons/Icon-512.png": "5208287bc3847a6e8c90a966ece325c2",
+"icons/Icon-maskable-192.png": "9ab5e9c9c07419d638ff404dc4d873f6",
+"icons/Icon-maskable-512.png": "5208287bc3847a6e8c90a966ece325c2",
+"index.html": "6f98d9872811989622a89d9e4683876c",
+"/": "6f98d9872811989622a89d9e4683876c",
+"main.dart.js": "f21cb12e02277541140150da3ac21ac3",
+"manifest.json": "779b75067771465949d7c6d58f650022",
+"version.json": "3743a3532d1fa7bea8e610fdc3ceac07"
 };
 
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "/",
-"main.dart.js",
+  "main.dart.js",
 "index.html",
-"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
@@ -130,9 +194,11 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache.
+        // lazily populate the cache only if the resource was successfully fetched.
         return response || fetch(event.request).then((response) => {
-          cache.put(event.request, response.clone());
+          if (response && Boolean(response.ok)) {
+            cache.put(event.request, response.clone());
+          }
           return response;
         });
       })
